@@ -1,0 +1,102 @@
+/* Layout
+-----------------------------*/
+@keyframes background {
+	0% {background-position: -1400px 40px;}
+  	10% {background-position: -1260px 40px;}
+  	20% {background-position: -1120px 40px;}
+  	30% {background-position: -980px 40px;}
+  	40% {background-position: -840px 40px;}
+  	50% {background-position: -700px 40px;}
+  	60% {background-position: -560px 40px;}
+  	70% {background-position: -420px 40px;}
+  	80% {background-position: -280px 40px;}
+  	90% {background-position: -140px 40px;}
+  	100% {background-position: 0px 40px;}
+}
+
+html {
+	background: url('../imagens/laranja-fundo.png') no-repeat 0px 40px,
+				url('../imagens/rosa-fundo-p.png') no-repeat 0px 200px;
+	animation-name: background;
+	animation-duration: 4s;
+	animation-iteration-count: 4;
+}
+
+body {
+	/*background-image: linear-gradient(50deg, red,orange,yellow,green,blue,indigo,violet);*/
+	background-size: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Barra de Navegação
+-----------------------------*/
+.nav-principal-item {
+	padding-left: 30px;
+}
+
+.nav-principal-link {
+	color: #545042;
+}
+
+.nav-principal-link:hover {
+	color: #fce490;
+	text-decoration: none;
+}
+
+.bg-amarelo {
+	background-image: linear-gradient(#ffc107, #f7c93e);
+}
+
+/* Conteúdos do site
+-----------------------------*/
+.conteudos {
+	background: white;
+}
+
+
+.borda {
+	border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries
+------------------------------*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}
