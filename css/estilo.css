@@ -70,7 +70,7 @@ body {
 	background-image: linear-gradient(#ffc107, #f7c93e);
 }
 
-/* Layout inicial
+/* Layout inicial / Home
 -----------------------------*/
 h1#texto-rd {
 	text-align: center;
@@ -146,6 +146,22 @@ p {
 	border-bottom: 1px solid #5d6063;
 }
 
+/* Rodapé
+-----------------------------*/
+footer {
+	background: white;
+	color: black;
+	line-height: 2em;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+}
+
+footer p {
+	padding: 0;
+	margin: 0;
+}
+
 /* Utilitários
 -----------------------------*/
 .borda {
@@ -159,18 +175,6 @@ p {
 .altura-conteudos {
 	height: 380px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Media queries
 ------------------------------*/
