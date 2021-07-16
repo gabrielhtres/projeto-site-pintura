@@ -49,6 +49,10 @@ body {
 
 /* Barra de Navegação
 -----------------------------*/
+#nav-principal {
+	box-shadow: 0px 1px 10px black;
+}
+
 .nav-principal-item {
 	padding-left: 30px;
 }
@@ -58,7 +62,7 @@ body {
 }
 
 .nav-principal-link:hover {
-	color: #fce490;
+	color: #a19c9c;
 	text-decoration: none;
 }
 
@@ -74,7 +78,7 @@ h1#texto-rd {
 }
 
 .text-rd {
-	margin-top: 210px;
+	margin-top: 270px;
 	color: white;
 	font-weight: 900;
 	font-size: 4em;
