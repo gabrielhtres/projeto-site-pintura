@@ -2,6 +2,7 @@
 -----------------------------*/
 html, body, #home {
 	height: 100%;
+	overflow-x: hidden;
 }
 
 @keyframes background {
@@ -18,8 +19,16 @@ html, body, #home {
   	100% {background-position: 0px 0;}
 }
 
-@keyframes texto-rd {
+@keyframes texto-home-rd {
+	0% {margin-right: 10000px;}
+	50% {margin-right: -50px;}
+	60% {margin-right: 0;}
+}
 
+@keyframes texto-home-emp {
+	0% {margin-left: 10000px;}
+	50% {margin-left: -50px;}
+	60% {margin-left: 0;}
 }
 
 body {
@@ -62,6 +71,31 @@ body {
 h1#texto-rd {
 	text-align: center;
 	border: 1px solid red;
+}
+
+.text-rd {
+	margin-top: 210px;
+	color: white;
+	font-weight: 900;
+	font-size: 4em;
+	letter-spacing: -0.1em;
+	text-shadow: 4px 8px 5px rgba(0,0,0,0.5);
+	white-space: nowrap;
+}
+
+h1.text-rd {
+	animation-name: texto-home-rd;
+	animation-duration: 16s;
+}
+
+p.rd-emp {
+	animation-name: texto-home-emp;
+	animation-duration: 16s;
+}
+
+.rd-emp {
+	margin-top: 0px;
+	font-size: 2em;
 }
 
 /* Conteúdos do site
