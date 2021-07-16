@@ -6,17 +6,17 @@ html, body, #home {
 }
 
 @keyframes background {
-	0% {background-position: -1400px 0}
-  	10% {background-position: -1260px 0;}
-  	20% {background-position: -1120px 0;}
-  	30% {background-position: -980px 0;}
-  	40% {background-position: -840px 0;}
-  	50% {background-position: -700px 0;}
-  	60% {background-position: -560px 0;}
-  	70% {background-position: -420px 0;}
-  	80% {background-position: -280px 0;}
-  	90% {background-position: -140px 0;}
-  	100% {background-position: 0px 0;}
+	0% {background-position: -1400px 0; overflow: hidden;}
+  	10% {background-position: -1260px 0; overflow: hidden;}
+  	20% {background-position: -1120px 0; overflow: hidden;}
+  	30% {background-position: -980px 0; overflow: hidden;}
+  	40% {background-position: -840px 0; overflow: hidden;}
+  	50% {background-position: -700px 0; overflow: hidden;}
+  	60% {background-position: -560px 0; overflow: hidden;}
+  	70% {background-position: -420px 0; overflow: hidden;}
+  	80% {background-position: -280px 0; overflow: hidden;}
+  	90% {background-position: -140px 0; overflow: hidden;}
+  	100% {background-position: 0px 0; overflow: hidden;}
 }
 
 @keyframes texto-home-rd {
@@ -104,18 +104,61 @@ p.rd-emp {
 
 /* Conteúdos do site
 -----------------------------*/
-.conteudos {
-	background: white;
+.conteudo {
+	background: none;
 }
 
+#conteudo {
+	margin-bottom: 150px;
+}
 
+.borda-conteudo {
+	/*border: 3px outset black;*/
+	box-shadow: 0px 3px 10px black;
+}
+
+h2 {
+	font-size: 2.7em;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	padding: 0;
+}
+
+#conteudo1 h2 {
+	color: #fcaa3f;
+}
+
+#conteudo2 h2 {
+	color: #eb4034;
+}
+
+#conteudo3 h2 {
+	color: #5e82f7;
+}
+
+p {
+	font-size: 1.5em;
+	letter-spacing: -0.03em;
+	padding: 0;
+}
+
+.border-bot {
+	border-bottom: 1px solid #5d6063;
+}
+
+/* Utilitários
+-----------------------------*/
 .borda {
 	border: 1px solid red;
 }
 
+.texto-direita {
+	text-align: right;
+}
 
-
-
+.altura-conteudos {
+	height: 380px;
+}
 
 
 
