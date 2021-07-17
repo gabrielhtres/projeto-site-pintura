@@ -41,10 +41,8 @@ body {
 				url('../imagens/fundo-preto.png') no-repeat;
 	animation-name: background;
 	animation-duration: 8s;
-}
-
-body {
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
 }
 
 /* Barra de Navegação
@@ -72,7 +70,7 @@ body {
 
 /* Layout inicial / Home
 -----------------------------*/
-h1#texto-rd {
+#texto-rd {
 	text-align: center;
 	border: 1px solid red;
 }
@@ -148,12 +146,28 @@ p {
 
 /* Rodapé
 -----------------------------*/
+footer {
+	color: black;
+}
+
 footer p {
 	font-size: 1em;
 }
 
-footer ul {
-	float: right;
+footer a {
+	color: black;
+}
+
+footer a:hover {
+	color: #a19c9c;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1em;
 }
 
 /* Utilitários
@@ -172,6 +186,10 @@ footer ul {
 
 .icones {
 	font-size: 2em;
+}
+
+.mr-personalizada {
+	margin-right: 2.5px;
 }
 
 /* Media queries
