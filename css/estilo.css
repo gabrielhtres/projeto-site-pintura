@@ -3,6 +3,7 @@
 html, body, #home {
 	height: 100%;
 	overflow-x: hidden;
+	box-sizing: border-box;
 }
 
 @keyframes background {
@@ -38,7 +39,7 @@ body {
 				url('../imagens/fundo-roxo.png') no-repeat,
 				url('../imagens/fundo-verde.png') no-repeat,
 				url('../imagens/fundo-cinza.png') no-repeat,
-				url('../imagens/fundo-preto.png') no-repeat;
+				url('../imagens/fundo-preto.png') repeat-y;
 	animation-name: background;
 	animation-duration: 8s;
 	font-family: Helvetica, Arial, sans-serif;
@@ -196,17 +197,115 @@ h4 {
 ------------------------------*/
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+	.text-rd {
+		margin-top: 150px;
+		font-weight: 900;
+		font-size: 3em;
+		letter-spacing: -0.1em;
+		text-shadow: 4px 8px 5px rgba(0,0,0,0.5);
+		white-space: pre-line;
+		text-align: center;
+		margin-left: 10px;
+	}
+
+	.rd-emp {
+		margin-top: -10px;
+		font-size: 1.5em;
+		margin-left: 10px;
+		text-align: center;
+	}
+
+	.resp-logo-rodape {
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#conteudo1 {
+		height: auto;
+		padding: 20px;
+	}
+
+	#conteudo2 {
+		height: auto;
+		padding: 20px;
+	}
 	
+	#conteudo3 {
+		height: auto;
+		padding: 20px;
+	}
+
+	#home {
+		padding-top: 100px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+	.text-rd {
+		margin-top: 200px;
+		font-weight: 900;
+		font-size: 3em;
+		letter-spacing: -0.1em;
+		text-shadow: 4px 8px 5px rgba(0,0,0,0.5);
+		/*white-space: pre-line;*/
+		text-align: center;
+		margin-left: 10px;
+		padding: 0 auto;
+	}
+
+	.rd-emp {
+		margin-top: 0;
+		font-size: 1.5em;
+		margin-left: 10px;
+		text-align: center;
+		padding: 0 auto;
+		white-space: pre-line;
+	}
+
+	.resp-logo-rodape {
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#conteudo1 {
+		height: auto;
+		padding: 20px;
+	}
+
+	#conteudo2 {
+		height: auto;
+		padding: 20px;
+	}
 	
+	#conteudo3 {
+		height: auto;
+		padding: 20px;
+	}
+
+	#home {
+		padding-top: 50px;
+	}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+	.rd-emp {
+		/*margin-top: -10px;*/
+		font-size: 2em;
+		margin-left: 10px;
+		text-align: center;
+		white-space: pre-line;
+	}
+
+	.resp-md {
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 5px;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
