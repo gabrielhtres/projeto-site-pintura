@@ -40,8 +40,8 @@ body {
 				url('../imagens/fundo-verde.png') no-repeat,
 				url('../imagens/fundo-cinza.png') no-repeat,
 				url('../imagens/fundo-preto.png') repeat-y;
-	/*animation-name: background;*/
-	/*animation-duration: 8s;*/
+	animation-name: background;
+	animation-duration: 8s;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
@@ -262,7 +262,6 @@ h4 {
 		font-size: 3em;
 		letter-spacing: -0.1em;
 		text-shadow: 4px 8px 5px rgba(0,0,0,0.5);
-		/*white-space: pre-line;*/
 		text-align: center;
 		margin-left: 10px;
 		padding: 0 auto;
@@ -301,17 +300,12 @@ h4 {
 	#home {
 		padding-top: 50px;
 	}
-/*
-	#conteudo2 {
-		width: 80%;
-	}*/
 
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 	.rd-emp {
-		/*margin-top: -10px;*/
 		font-size: 2em;
 		margin-left: 10px;
 		text-align: center;
