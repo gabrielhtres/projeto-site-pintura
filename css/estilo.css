@@ -4,6 +4,8 @@ html, body, #home {
 	height: 100%;
 	overflow-x: hidden;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 @keyframes background {
@@ -36,7 +38,13 @@ body {
 	background: url('../imagens/fundo-final-edit.png') repeat-y;
 	background-position: 0px 60px;
 	animation-name: background;
+	-webkit-animation-name: background;
+	-moz-animation-name: background;
+	-o-animation-name: background;
 	animation-duration: 8s;
+	-webkit-animation-duration: 8s;
+	-moz-animation-duration: 8s;
+	-o-animation-duration: 8s;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
@@ -45,6 +53,8 @@ body {
 -----------------------------*/
 #nav-principal {
 	box-shadow: 0px 1px 10px black;
+	-webkit-box-shadow: 0px 1px 10px black;
+	-moz-box-shadow: 0px 1px 10px black;
 }
 
 #nav-principal .navbar-toggler {
@@ -88,12 +98,24 @@ body {
 
 h1.text-rd {
 	animation-name: texto-home-rd;
+	-webkit-animation-name: texto-home-rd;
+	-moz-animation-name: texto-home-rd;
+	-o-animation-name: texto-home-rd;
 	animation-duration: 16s;
+	-webkit-animation-duration: 16s;
+	-moz-animation-duration: 16s;
+	-o-animation-duration: 16s;
 }
 
 p.rd-emp {
 	animation-name: texto-home-emp;
+	-webkit-animation-name: texto-home-emp;
+	-moz-animation-name: texto-home-emp;
+	-o-animation-name: texto-home-emp;
 	animation-duration: 16s;
+	-webkit-animation-duration: 16s;
+	-moz-animation-duration: 16s;
+	-o-animation-duration: 16s;
 }
 
 .rd-emp {
@@ -112,8 +134,10 @@ p.rd-emp {
 }
 
 .borda-conteudo {
-	/*border: 3px outset black;*/
 	box-shadow: 0px 3px 10px black;
+	-webkit-box-shadow: 0px 3px 10px black;
+	-moz-box-shadow: 0px 3px 10px black;
+
 }
 
 h2 {
@@ -169,6 +193,8 @@ h4 {
 
 #rodape {
 	box-shadow: 0px 1px 10px black;
+	-webkit-box-shadow: 0px 1px 10px black;
+	-moz-box-shadow: 0px 1px 10px black;
 }
 
 /* Utilitários
